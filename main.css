@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkorchid;
+}
+
+h1 {
+    color: chartreuse;
+    border: solid;
+    border-color: aqua;
+    border-width: thick;
+    text-align: center;
+    background-color: crimson;
+}
+
+ul{
+    border: solid;
+    border-color: black;
+    color:coral;
+}
+
+li{
+    border: dashed;
+    border-color: darkgreen;
+    vertical-align: middle;
+}

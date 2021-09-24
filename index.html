@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <meta charset="utf-8">
+        <title>TO DO LIST OUAIS</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <h1 style="font-size: 500%" id="titre">La meilleure to-do list du web</h1>
+        
+        <section>     
+            <ul id="ul" style="font-size: 300%">
+            </ul>
+        </section>
+        
+        <form method="get" id="form">
+            <label for="tdname" style="font-size: 300%">Tâche à ajouter</label><br>
+            <input type="text" id="tdname" name="tdname" style="font-size: 300%" placeholder="Tâche">
+            <button type="button" onclick="ajouterTache()" style="font-size: 300%">Ajouter</button>
+        </form>
+        
+    </body>
+</html>
